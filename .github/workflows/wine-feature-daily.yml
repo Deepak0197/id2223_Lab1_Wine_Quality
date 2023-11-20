@@ -3,7 +3,7 @@ name: wine-feature-pipelines
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 11 * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   test_schedule:
